@@ -1,0 +1,292 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+
+/*
+Theme Name: CoderDojo-Nada
+Author: Tsuji 
+Description: This is CoderDojo-Nada Theme
+Version: 1.0/
+*/
+
+body {
+    margin: 0;
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
+}
+
+.container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* ヘッダー */
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ヘッダー画像 */
+
+header img .full {
+    /*    width: 100%;
+    height: auto;
+*/
+    vertical-align: bottom;
+}
+
+.siteinfo {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #ffffff;
+    color: #000000
+}
+
+.siteinfo a {
+    color: #000000;
+    vertical-align: middle;
+}
+
+.siteinfo img {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.siteinfo h1 {
+    margin: 0;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.siteinfo p {
+    margin: 40px 0 0 0;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+/* article */
+
+article h1 {
+    margin: 40px 0 40px 0;
+    border-top: 5px solid #4267b2;
+    padding-top: 30px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+article h3 {
+    margin: 30px 0 30px 0;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+article a {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*
+article section li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+*/
+
+
+/* フッター */
+
+footer {
+    text-align: center;
+    border-top: 5px solid #4267b2;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+    clear: both;
+}
+
+
+/* メディアクエリの設定 */
+
+@media (min-width: 768px) {
+    /* ２段組 */
+    .container {
+        max-width: 1000px;
+        overflow: hidden
+    }
+}
+
+
+/* トップページ */
+
+.largeheader {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    vertical-align: bottom
+}
+
+
+/* トップページのメニュー */
+
+.topmenu {
+    padding-top: 20px;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 15px
+}
+
+.link a {
+    color: #aaaaaa;
+    font-size: 18px;
+    text-decoration: none
+}
+
+.link i {
+    display: block;
+    margin: 15px auto 10px auto;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+    background-color: #fa8072;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.link i:hover {
+    transform: scale(1.06) translate(0, -8px);
+    transition: transform 0.2s ease-in-out;
+    /*
+    animation: menu-anime 1s
+
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transition: transform 0.4s ease-out;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+*/
+}
+
+.link:nth-child(2) i {
+    background-color: #ffa500
+}
+
+.link:nth-child(3) i {
+    background-color: #ffd700
+}
+
+.link:nth-child(4) i {
+    background-color: #b7ef6b
+}
+
+.link:nth-child(5) i {
+    background-color: #87cefa
+}
+
+.link:nth-child(6) i {
+    background-color: #4267b2
+}
+
+.link:nth-child(7) i {
+    background-color: #dda0dd
+}
+
+
+/*
+.link a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #87cefa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 140px;
+    line-height: 60px;
+    border-radius: 35px;
+}
+
+.link:nth-child(2) a {
+    background-color: #b7ef6b
+}
+
+.link:nth-child(3) a {
+    background-color: #e8a380
+}
+
+.link:nth-child(4) a {
+    background-color: #ecc952
+}
+*/
+
+.center {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media (min-width: 500px) {
+    .topmenu {
+        overflow: hidden
+    }
+    .link {
+        float: left;
+        width: 14%
+    }
+    .gmap {
+        display: inline-block;
+        width: 45%;
+        padding: 10px 10px;
+    }
+}
+
+p.indent-1 {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    border: 1px solid;
+    font: 10pt normal;
+    background-color: #eeeeee;
+}
+
+td {
+    border: 1px solid;
+}
