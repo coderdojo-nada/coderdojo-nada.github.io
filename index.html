@@ -1,26 +1,338 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <title>CoderDojo Nada</title>
-    <style>
-        h1,p{
-            width:100%;
-            margin-top:100px;
-            margin-right:auto;
-            margin-left:auto;
-            font-size:36px;
-            text-align:center;
-        }
+
+    <meta name="viewport" content="width=device-width">
+
+    <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <style type="text/css">
+
     </style>
-    <script>
-    </script>
 </head>
 
 <body>
-    <h1>CoderDojo Nada</h1>
-    <p>準備中</p>
+
+    <header>
+        <div class="siteinfo">
+            <div class="container">
+                <h1>
+                    <a href="https://coderdojo-nada.github.io">
+                        <picture><img src="img/coderdojo_nada_logo96x96.png" width="96" height="96"></picture>CoderDojo Nada</a>
+                </h1>
+                <p class="center">子供も大人も<span style="color:red">プログラミング</span>を<span style="color:blue">楽しむ</span>！</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="topmenu">
+        <div class="container">
+
+            <div class="link">
+                <a href="https://coderdojo-nada.github.io">
+                    <i class="fa fa-home"></i>ホーム
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="https://coderdojo-nada.connpass.com/">
+                    <i class="fa fa-user"></i>参加する
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="http://153.125.129.223/">
+                    <i class="fa fa-pencil"></i>活動記録
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="financial_report.html">
+                    <i class="fa fa-check"></i>会計報告<br><small>(寄付のお願い)</small>
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="https://github.com/coderdojo-nada">
+                    <i class="fa fa-github"></i>リソース
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="https://www.facebook.com/coderdojonada/">
+                    <i class="fa fa-facebook"></i>facebook
+                </a>
+            </div>
+
+            <div class="link">
+                <a href="mailto:nada.hyogo.jp@coderdojo.com">
+                    <i class="fa fa-envelope"></i>お問い合わせ
+                </a>
+            </div>
+    </nav>
+    <article class="container">
+        <section>
+            <h1>CoderDojo とは</h1>
+            <p>CoderDojoは、7〜17歳の子どもを対象にしたプログラミングクラブ（道場）です。</p>
+            <p>CoderDojo の活動は2011年にアイルランドで始まり、子どもにより良い環境で、自発的に、なおかつ無料でプログラミングに触れる機会を提供するために始まりました。</p>
+            <p>世界では70カ国・1,200の道場、日本では全国に115以上の道場があります。（2018年1月時点）</p>
+            <p>CoderDojoでは開催場所や参加者を次のように呼びます。</p>
+            <nl>
+                <li>プログラミングする場所（開催場所）: <strong>Dojo（道場）</strong></li>
+                <li>参加する子供たち: <strong>忍者</strong></li>
+                <li>サポートする大人たち: <strong>メンター</strong></li>
+                <li>Dojoの運営者: <strong>チャンピオン</strong></li>
+            </nl>
+
+            <div>
+                <p>CoderDojo Foundation は世界中の CoderDojo コミュニティのために行動します。</p>
+                <p style="text-align:left;margin-left:-70px">
+                    <a href="https://coderdojo.com"><img style="vertical-align:middle" src="https://coderdojo.com/wp-content/themes/cd-theme/static/img/coderdojo/coderdojo-logo-light-bg.svg" width=300 height=40 alt="CoderDojo"></a><a style="margin:-50px" href="https://coderdojo.com">CoderDojo Foundation</a></p>
+                <p>CoderDojo の公式の日本支部が「一般社団法人 CoderDojo Japan」となります。<br> 国内の Dojo がより活発になるよう裏側から支援していき、また、世界の中の日本として、国外の Dojo ともより一層連携していくことを目的として活動します。</p>
+                <p>
+                    <a href="https://coderdojo.jp"><img style="vertical-align:middle;margin-right:30px" src="img/coderdojo_japan.png" width=80 height=80 alt="CoderDojo"></a><a href="https://coderdojo.jp">CoderDojo Japan</a></p>
+
+
+            </div>
+
+        </section>
+
+        <section id="guidance" class="center">
+            <h3><a href="//www.slideshare.net/togazo/coderdojo-introduction-jp" target="_blank" title="CoderDojoガイダンス">CoderDojoガイダンス</a></h3>
+            <p><iframe allowfullscreen="" frameborder="0" height="485" marginheight="0" marginwidth="0" scrolling="no" src="//www.slideshare.net/slideshow/embed_code/key/FAXoW4pBq172mQ" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+                    width="595"></iframe>
+            </p>
+
+        </section>
+        <section>
+            <h1>CoderDojo Nada とは</h1>
+            <p>CoderDojo Nada は CoderDojo の理念に共感したメンバーにより発足したボランティアグループです。</p>
+            <p>2018年3月より、ほぼ毎月 CoderDojo を開催します。</p>
+            <p>CoderDojo Nada 独自の運営方針として、参加者を<mark><strong>中学生・高校生だけを対象</strong></mark>とさせていただきます。</p>
+            <p><mark><strong>「子供も大人もプログラミングをたのしむこと」</strong></mark>を基本的な指針としていきたいと思います。<br>
+                <mark><strong>「プログラミングスクール（学校）」ではありません。カリキュラムもありません。先生もいません。</strong></mark><br>
+                <mark><strong>忍者は自分でやりたいことを見つけて、自分で進めていきます。メンターは横からサポートします。</strong></mark><br>
+                <mark><strong>「子供と大人が参加するプログラミングを楽しむクラブ」</strong></mark>といった認識で参加いただけたらと思います。</p>
+            <p>CoderDojo Nada</a> は <a href="https://zen.coderdojo.com/dojos/jp/higashinada-ward-hy-go-prefecture/nada-hyogo"><strong>CoderDojo Foundation</strong></a> および <a href="https://coderdojo.jp/"><strong>CoderDojo Japan</strong></a> に公式のDojoとして登録されています。
+            </p>
+        </section>
+
+        <section>
+            <h1>CoderDojo Nada でサポートするプログラミング言語</h1>
+            <table>
+                <tr>
+                    <th style="width:140px;">プログラミング言語</th>
+                    <th>サポート内容</th>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Canvas、8x9Craft、enchant.js、その他、ゲーム、Webサイト作成など</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Pygame、NumPy、AI(ディープラーニングの初歩)、その他、ゲーム作りなど</td>
+                </tr>
+                <tr>
+                    <td>C, C#</td>
+                    <td>Unity、arduino、その他、ゲーム作りなど</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Webアプリ、バッチアプリなど</td>
+                </tr>
+            </table>
+            <ul>
+                <li>パソコンの基本操作およびローマ字が理解できることが前提となります。</li>
+                <li>勉強していく意欲さえあれば、全くの初心者でも構いません。</li>
+                <li>その他の言語でも、サポートできるメンターの応募があればサポート可能です。</li>
+                <li>サポートしてほしい言語や内容を申し込みの際、アンケートにご記入ください。</li>
+                <li>原則としてビジュアルプログラミング(Scratchなど)はサポートしていません。</li>
+                <ul>
+        </section>
+
+        <section id="gmaplist" class="center">
+            <h1>Dojo（開催会場）</h1>
+            <p class="center">開催会場は次の2つの会場のどちらかになります。</p>
+            <p class="center">開催月ごとに<a href="https://coderdojo-nada.connpass.com/">イベントページ</a>で確認してください。</p>
+            </p>
+            <div class="gmap">
+                <p><a href="https://nilquebe.com">Nilquebe（ニルキューブ）</a></p>
+                <div id="gMap_nilquebe" class="googleMapCanvas" style="width: 100%; height: 400px" data-latitude="34.722492" data-longitude="135.291661"></div>
+            </div>
+
+            <div class="gmap">
+                <p><a href="http://www.kobe.coop.or.jp">コープリビング甲南</a></p>
+                <div id="gMap_coopkobe" class="googleMapCanvas" style="width: 100%; height: 400px" data-latitude="34.722253" data-longitude="135.27621"></div>
+            </div>
+
+        </section>
+
+        <section>
+            <h1>参加方法</h1>
+            <ul>
+                <li>Connpass にユーザー登録をし、上の「このイベントに申し込む」から参加登録を行ってください。</li>
+                <li>facebookユーザ、twitterユーザと連携することもできます。</li>
+                <li>携帯電話・スマホでPCメールからのメール受信を拒否されている方は、メールが届きませんので解除をしてください。</li>
+                <span style="margin-left:30px">(「@connpass.com」「@coderdojo.com」の2ドメイン)</span>
+                <li>参加希望者が定員を上回る場合は抽選とさせていただきます。</li>
+                <li><mark>参加希望者が定員に達しない場合でも、希望するプログラミング内容をサポートできるメンターがいなければ<br>参加できない場合があります。</mark></li>
+            </ul>
+            <h3>CoderDojo Nada 参加者同意書への同意のお願い</h3>
+            <p>CoderDojo Nada の参加者全員に「CoderDojo Nada 参加者同意書」に同意していただく必要があります。<br>Coder Dojo Nada に参加いただく際に守っていただくべきルール、条件などを記載しています。<br> 「CoderDojo Nada 参加者同意書」は申し込みページに記載しています。</p>
+        </section>
+
+        <section>
+            <h1>必要な持物</h1>
+            <ul>
+                <li>
+                    無線LaN につなぐことができるノートパソコン(電源コードも忘れずに持参してください)。<br>最近3〜5年以内に発売された、Windows や Mac パソコン。<br>iPad などのタブレット、スマートホンだけでは参加できません。<br>古すぎるパソコンでは学習できない場合がございます。<br>コープリビング甲南様で開催する時はパソコンの貸出は可能です。(ご持参いただくことを推奨します)
+                </li>
+                <li>マウス（必要であれば）</li>
+                <li>USB Type-CしかインターフェイスがないパソコンはHDMIまたはD-subに変換できるアダプタ</li>
+                <li>筆記用具（必要であれば）</li>
+                <li>書籍（自宅でプログラミングするときに見ている本があれば）</li>
+                <li>その他、各自が作業に必要だと思うもの</li>
+                </p>
+        </section>
+
+        <section>
+            <h1>おことわり</h1>
+            <p>
+                CoderDojo 当日は、イベントの内容の写真・ビデオ撮影をさせていただきます。<br>撮影した内容は、Creative Commons ライセンスで再利用可能な状態で公開いたします。<br>参加者は原則、写真撮影・ビデオ撮影 OK という認識でおります。<br>
+                <mark>もしも写真撮影・ビデオ撮影が不都合のある方は事前に申し出てください。</mark>
+            </p>
+        </section>
+
+        <section>
+            <h1>メンターの募集について</h1>
+            <h3>メンターとは</h3>
+            <p>
+                Mentor (メンター)とは、英語で「指導者」という意味です。メンターは忍者 (生徒) のサポートをします。<br>忍者に自発的にプログラミングを進めてもらえるように隣に寄り添ってサポートしていただきます。<br>「答えを教える」のではなく、<mark><strong>「調べ方を教える」</strong></mark>か<mark><strong>「問題を小さく分けてあげる」</strong></mark>ようにしてください。
+            </p>
+
+            <h3>メンターに求められること</h3>
+            <p>
+                メンターは CoderDojo Nada でサポートするプログラミングの基礎知識は必要です。<br>でも、いっしょに勉強していくという姿勢があれば、入門書に目をとおした程度の知識でも構いません。 メンターの勉強会も適宜行っていく予定です。 忍者の子供たちから、教えられるということもしてください。(意外とよくあります)
+            </p>
+
+            <h3>メンターとしての準備すること</h3>
+            <p>
+                メンターとしての予習は原則として必要ありません。 忍者に質問されて、わかならければ、いっしょに考えて、調べてください。
+            </p>
+
+            <h3>メンターもプログラミングを楽しんでください</h3>
+            <p>
+                子どもたちに教えると同時に、自分自身が勉強し、楽しんでください。 勉強したことを他のメンターや忍者と共有してください。 発表時間には進んで発表をしてください。
+            </p>
+
+            <h3>初めてメンターをされる方</h3>
+            <p>
+                メンター参加希望者の方で、今まで CoderDojo Nada や他の CoderDojo に一度もメンターとして参加していない方は、必ず 事前に CoderDojo Nada までご連絡ください、もしくは我々から連絡させていただきます。 今まで、一度もメンター経験のない方は、見学者としての参加をお願いすることがあります。
+            </p>
+        </section>
+
+
+        <section>
+            <h1>スポンサーや寄付のお願い</h1>
+            <p>
+                CoderDojo Nada では、無料で運営するために、スポンサーや寄付を受け付けます。
+            </p>
+            <p>会場に募金箱を設定致します。 任意で募金をお願いします。（目安は 1回500円から1000円程度）</p>
+            <p>団体・法人スポンサーは、現物支給スポンサーと資金スポンサーがあります。<br>現物支給スポンサーは会場、テクニカルなメンター、機材、Wifiアクセスといったモノやサービスを寄付するスポンサーです。<br>当ページ、および CoderDojo Nada ホームページ上で、スポンサー様として、リンク、バナー広告などを掲載させていただきます。 </p>
+            <p>寄付は、教材代、書籍代、印刷代、コピー代、備品代、その他、CoderDojoの運営にだけ使われます。</p>
+            <p>
+                ※参加者が募金をすること、または募金をしないことが、CoderDojo Nada での参加者の抽選、および活動内容に影響することはありません。
+            </p>
+
+            <h3>CoderDojo Nada のスポンサー様</h3>
+            <p class="center">ニルキューブ様には開催会場と設備を無償で貸与していただいています。</p>
+            <p class="center">
+                <a href="https://nilquebe.com"><img src="https://coderdojo-nada.github.io/img/nilquebe200x50_20180127.png" width=200 height=50></a>
+            </p>
+            <p class="center">コープこうべ様には開催会場と設備を無償で貸与していただいています。</p>
+            <p class="center">
+                <a href="http://www.kobe.coop.or.jp"><img src="http://www.kobe.coop.or.jp/share/img/logotop.jpg" width=291 height=50></a>
+            </p>
+            <p class="center">さくらインターネット様には仮想サーバを無償で貸与していただいています。</p>
+            <p class="center">
+                <a href="http://www.sakura.ad.jp"><img src="https://www.sakura.ad.jp/resource/images/header_logo_bgwhite.png" width=364 height=40></a>
+            </p>
+        </section>
+        <section>
+            <h1>お問い合わせ・連絡先</h1>
+            <p class="center">nada.hyogo.jp@coderdojo.com</p>
+        </section>
+
+    </article>
+
+    <footer>
+        <!--
+        <div class="container">
+            <p>
+                <a href="https://coderdojo.com"><img src="https://coderdojo.com/wp-content/themes/cd-theme/static/img/coderdojo/coderdojo-logo-light-bg.svg" width=300 height=60 alt="CoderDojo"></a>
+            </p>
+            <p><a href="https://zen.coderdojo.com/dojos/jp/higashinada-ward-hy-go-prefecture/nada-hyogo">CoderDojo Nada</a> は<br><a href="https://coderdojo.com">CoderDojo Foundation</a> および <a href="https://coderdojo.jp/">CoderDojo Japan</a> に公式のDojoとして登録されています。
+            </p>
+        </div>
+        -->
+        <div class="container">
+            <small>&copy; 2018 CoderDojo Nada</small>
+        </div>
+    </footer>
+
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6Hqovax8P0xJQ89vvAAzp7oz-8wld62Y"></script>
+
+    <script type="text/javascript">
+        (window.onload = function() {
+
+            function googleMapInit(ele) {
+                try {
+                    var latlng = new google.maps.LatLng(ele.dataset.latitude, ele.dataset.longitude);
+                    var mapOptions = {
+                        zoom: 17,
+                        center: latlng,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        streetViewControl: false,
+                        scrollwheel: true,
+                        draggable: true,
+                        mapTypeControl: false
+                    };
+                    ele.map = new google.maps.Map(ele, mapOptions);
+                    ele.marker = new google.maps.Marker({
+                        position: latlng,
+                        map: ele.map
+                    });
+                } catch (e) {
+                    ele.textContent = "Unable to display map:" + e.message;
+                }
+            }
+            var gMap_nilquebe = document.getElementById('gMap_nilquebe');
+            var gMap_coopkobe = document.getElementById('gMap_coopkobe');
+            var gmap_ele_list = [gMap_nilquebe, gMap_coopkobe];
+
+            gmap_ele_list.forEach(startWhenVisible);
+
+            function startWhenVisible(ele) {
+                var t;
+                var style = getComputedStyle(ele);
+                var t = window.setInterval(function() {
+                    if ((style.display !== 'none') && (style.visibility !== 'hidden')) {
+                        window.clearInterval(t);
+                        googleMapInit(ele);
+                    }
+                }, 100);
+            }
+        })();
+    </script>
+
+
 </body>
 
 </html>
