@@ -159,18 +159,18 @@ footer {
     padding-top: 20px;
 }
 
-.link {
+.topmenu .link {
     text-align: center;
     margin-bottom: 15px
 }
 
-.link a {
+.topmenu .link a {
     color: #808080;
     font-size: 18px;
     text-decoration: none
 }
 
-.link i {
+.topmenu .link i {
     display: block;
     margin: 15px auto 10px auto;
     width: 100px;
@@ -181,7 +181,7 @@ footer {
     font-size: 60px;
 }
 
-.link i:hover {
+.topmenu .link :hover {
     transform: scale(1.06) translate(0, -8px);
     transition: transform 0.2s ease-in-out;
     /*
@@ -196,58 +196,51 @@ footer {
 */
 }
 
-.link:nth-child(2) i {
+.topmenu .link:nth-child(2) i {
     background-color: #ffa500
 }
 
-.link:nth-child(3) i {
+.topmenu .link:nth-child(3) i {
     background-color: #ffd700
 }
 
-.link:nth-child(4) i {
+.topmenu .link:nth-child(4) i {
     background-color: #b7ef6b
 }
 
-.link:nth-child(5) i {
+.topmenu .link:nth-child(5) i {
     background-color: #87cefa
 }
 
-.link:nth-child(6) i {
+.topmenu .link:nth-child(6) i {
     background-color: #4267b2
 }
 
-.link:nth-child(7) i {
+.topmenu .link:nth-child(7) i {
     background-color: #dda0dd
 }
 
-
-/*
-.link a {
+.mainmenu .link a {
+    text-align: center;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: bold;
     text-decoration: none;
-    background-color: #87cefa;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
-    width: 140px;
-    line-height: 60px;
-    border-radius: 35px;
+    margin-bottom: 30px;
+    width: 300px;
+    line-height: 40px;
+    border-radius: 15px;
 }
 
-.link:nth-child(2) a {
-    background-color: #b7ef6b
+.mainmenu .link i {
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+    font-size: 60px;
 }
-
-.link:nth-child(3) a {
-    background-color: #e8a380
-}
-
-.link:nth-child(4) a {
-    background-color: #ecc952
-}
-*/
 
 .center {
     width: 100%;
@@ -260,9 +253,16 @@ footer {
     .topmenu {
         overflow: hidden
     }
-    .link {
+    .topmenu .link {
         float: left;
         width: 14%
+    }
+    .mainmenu .link a {
+        font-size: 20px;
+        margin-bottom: 30px;
+        width: 440px;
+        line-height: 80px;
+        border-radius: 35px;
     }
     .gmap {
         display: inline-block;
